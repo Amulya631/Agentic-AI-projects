@@ -9,8 +9,8 @@
 
 ## 📘 Project Overview
 
-This project — **Serverless Agentic AI Chatbot (Pet & Animal Needs Assistant)** — is a **serverless AI-powered chatbot** designed to help users with **pet and animal-related queries**.  
-It leverages **Google Cloud’s Vertex AI**, **Gemini 2.5 Flash Lite**, and **Cloud Run** for fully managed deployment — no servers to maintain!
+The **Serverless Agentic AI Chatbot (Pet & Animal Needs Assistant)** is a **serverless AI-powered assistant** built to help users with **pet and animal-related queries**.  
+It uses **Google Cloud’s Vertex AI**, **Gemini 2.5 Flash Lite**, and **Cloud Run** for a fully managed and scalable deployment — with no server maintenance required.
 
 ---
 
@@ -18,27 +18,27 @@ It leverages **Google Cloud’s Vertex AI**, **Gemini 2.5 Flash Lite**, and **Cl
 
 ### **Step 1: Set up Vertex AI**
 
-1. Go to **Vertex AI → Model Garden**.  
-2. Select your model: **Gemini 2.5 Flash Lite**.  
+1. Navigate to **Vertex AI → Model Garden**.  
+2. Select the model: **Gemini 2.5 Flash Lite**.  
 3. Open **Vertex AI Studio → Browse Prompt Gallery**.  
-4. Choose an existing prompt or create your own custom system prompt for the chatbot.
+4. Choose a prompt template or create your own system prompt for the chatbot.
 
 ---
 
 ### **Step 2: Choose and Deploy the Prompt**
 
-1. For this project, select the **“Pet & Animal Needs Assistant”** prompt.  
+1. Select the **“Pet & Animal Needs Assistant”** prompt.  
 2. Click **Save**.  
-3. On the right-hand side, click **“Build with Code”** → open the dropdown (⬇️) → select **“Deploy the app powered by Cloud Run.”**  
-4. Wait for the Cloud Run service to finish deploying.
+3. On the right-hand side, click **“Build with Code”**, then from the dropdown (⬇️) select **“Deploy the app powered by Cloud Run.”**  
+4. Wait for the deployment to complete.
 
 ---
 
 ### **Step 3: Test & Customize the App**
 
-1. Once deployed, click the **HTTP link** from Cloud Run to open your live chatbot.  
-2. If you want to customize the interface beyond the default **Gradio UI**, you can edit the provided `app.py` file.  
-3. You can also deploy it locally using your own custom UI instead of Gradio.
+1. Once the **Cloud Run service** is deployed, click the **HTTP link** to open your live chatbot.  
+2. If you’d like to customize the interface, modify the provided `app.py` file.  
+3. You can also deploy it locally with your own custom UI instead of the default Gradio interface.
 
 ---
 
@@ -55,15 +55,15 @@ It leverages **Google Cloud’s Vertex AI**, **Gemini 2.5 Flash Lite**, and **Cl
 ## ✅ Outcome
 
 🎉 **Congratulations!**  
-Your **Serverless AI Chatbot** is successfully deployed on **Google Cloud Run** — intelligent, scalable, and serverless!
+Your **Serverless AI Chatbot** is successfully deployed on **Google Cloud Run** — scalable, intelligent, and completely serverless.
 
 ---
 
 ## 💡 Author
 
-**Amulya Batila **  
-💻 _AI & ML Enthusiast | Gen AI Engineer | Builder of SmartMeal Assistant & Agentic Chatbots_  
-📫 [LinkedIn](www.linkedin.com/in/batila-amulya-20b76521a) | [GitHub][(https://github.com](https://github.com/Amulya631/Agentic-AI-projects))
+**Amulya Batila**  
+💻 _AI & ML Enthusiast | GenAI Engineer | Builder of SmartMeal Assistant & Agentic Chatbots_  
+📫 [LinkedIn](https://www.linkedin.com/in/batila-amulya-20b76521a/) | [GitHub](https://github.com/Amulya631/Agentic-AI-projects)
 
 ---
 
